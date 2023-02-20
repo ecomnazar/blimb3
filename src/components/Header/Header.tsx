@@ -308,7 +308,7 @@ const onClickBack = () => {
 }
 
     const rangeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setVolume(e.target.value)
+        setVolume(e.target.valueAsNumber)
         console.log(volume)
     }
 
